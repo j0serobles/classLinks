@@ -1,0 +1,319 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Bootcamp Class Links</title>
+  <style>
+
+    header {
+      /* background: url(logo-UCF.svg); */
+      background-size:cover;
+      background-position: center;
+      /* min-height:500px; */
+      
+     
+    }
+
+    nav {
+        background-color : black;
+    }
+
+    @media screen and (max-width: 670px) { 
+        header { 
+          min-height: 500px;
+        }
+
+        #logo_text {
+          font-size: 1em!important;
+        }
+        #logo-svg {
+          height: 20px;
+        }
+    }
+
+
+  #logo-svg {
+    height: 50px;
+    margin-top:7px;
+    float: left;
+  }
+
+    section {
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+    }
+
+    .tabs .indicator {
+        background-color : #1a237e;
+    }
+
+    .tabs .tab a:focus, .tab .tab a:focus:active { 
+        background:transparent;
+    }
+
+    i.fab {
+        color:black;
+    }
+
+    a div .responsive-img {
+       width  : auto!important;
+       height : 150px!important;
+       padding: 5px;
+    } 
+
+    #class-links-row { 
+      padding-top: 20px;
+    }
+
+    .img-frame {
+      border :teal 1px solid;
+      border-radius: 3px;
+   
+      margin-top: 10px;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+
+      <nav class="nav-wrapper z-depth-1 valign-wrapper">
+
+          <div class="container">
+
+              <!-- Mobile menu 'hamburger' icon -->
+              <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                <i class="material-icons">menu</i>
+              </a>
+
+              <!-- Branding Logo img -->
+              <a href="#" >
+                <img  id="logo-svg" class="responsive-img hide-on-small-only" src="./assets/images/logo-UCF.svg">
+              </a>
+
+              <!-- Branding text -->
+              <a href="#"><span class="brand-logo" id="logo_text">Bootcamp Class Links</span></a>
+
+
+              <!-- Navbar menu items shown on large -->
+              <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="https://www.instagram.com" target="_blank" class="tooltipped btn-floating btn-small white" data-tooltip="Follow us on Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com" target="_blank" class="tooltipped btn-floating btn-small white" data-tooltip="Follow us on Facebook">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com" target="_blank" class="tooltipped btn-floating btn-small white" data-tooltip="Follow us on Twitter">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a href="#">Photo's</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+
+      </nav>
+
+      <div class="row" id="class-links-row">
+
+        <!-- Pre Work -->
+        <div class="col s12 m6 l2" id="class-link-logos">
+            <div class="img-frame z-depth-1">
+              <a class="center-align" href="https://coding-bootcamp-fsf-prework.readthedocs-hosted.com/en/latest/" target="_blank">
+                <div><img src="./assets/images/prework.jpg" alt="Github Repository" class="responsive-img"></div>
+                <p>Course Pre-Work</p>
+              </a>
+            </div>
+        </div>
+
+        <!-- Learn HTML and CSS -->
+        <div class="col s12 m6 l2" id="class-link-logos">
+            <div class="img-frame z-depth-1">
+              <a class="center-align" href="https://learn.shayhowe.com/html-css/building-your-first-web-page/">
+                <div><img src="./assets/images/htmlcss.jpg" alt="Learn HTML and CSS" class="responsive-img"></div>
+                <p>Learn HTML and CSS</p>
+              </a>
+            </div>
+        </div>
+
+    
+        <!-- Bootcampspot -->
+        <div class="col s12 m6 l2" id="class-link-logos">
+          <div class="img-frame z-depth-1">
+            <a class="center-align" href="https://bootcampspot.com" target="_blank">
+              <div><img src="./assets/images/ucf-coding-boot-camp.png" alt="UCF Coding Bootcamp" class="responsive-img"></div>
+              <p>Bootcamp Spot</p>
+            </a>
+          </div>
+        </div>
+            
+        <!-- GitHub Repo -->
+        <div class="col s12 m6 l2" id="class-link-logos">
+            <div class="img-frame z-depth-1">
+              <a class="center-align" href="https://github.com/UCF-Coding-Boot-Camp/UCFVW201906FSF1" target="_blank">
+                <div><img src="./assets/images/github.png" alt="Github Repository" class="responsive-img"></div>
+                <p>GitHub Repo</p>
+              </a>
+            </div>
+        </div>
+
+
+        <!-- W3 Schools -->
+        <div class="col s12 m6 l2" id="class-link-logos">
+          <div class="img-frame z-depth-1">
+            <a class="center-align" href="https://www.w3schools.com/">
+              <div><img src="./assets/images/w3schools.jpg" alt="W3 Schools Tutorials" class="responsive-img"></div>
+              <p>W3Schools Tutorials</p>
+            </a>
+          </div>
+      </div>
+       <!-- Bootstrap Docs -->
+       <div class="col s12 m6 l2" id="class-link-logos">
+        <div class="img-frame z-depth-1">
+          <a class="center-align" href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">
+            <div><img src="./assets/images/bootstrap.jpg" alt="Boostrap Docs" class="responsive-img"></div>
+            <p>Bootstrap Docs</p>
+          </a>
+        </div>
+    </div>
+
+    <!-- JQuery Cheat Sheet -->
+      <div class="col s12 m6 l2" id="class-link-logos">
+      <div class="img-frame z-depth-1">
+        <a class="center-align" href="https://oscarotero.com/jquery/">
+          <div><img src="./assets/images/jquery.png" alt="jQuery Cheat Sheet With Links" class="responsive-img"></div>
+          <p>jQuery Cheat Sheet</p>
+        </a>
+      </div>
+  </div>
+
+      <!-- Node.js -->
+      <div class="col s12 m6 l2" id="class-link-logos">
+          <div class="img-frame z-depth-1">
+            <a class="center-align" href="https://rapidapi.com/">
+              <div><img src="./assets/images/rapid_api.svg" alt="NodeJS Site" class="responsive-img"></div>
+              <p>Rapid API</p>
+            </a>
+          </div>
+      </div>
+
+         <!-- Node JS -->
+         <div class="col s12 m6 l2" id="class-link-logos">
+          <div class="img-frame z-depth-1">
+            <a class="center-align" href="https://nodejs.org/en/docs/">
+              <div><img src="./assets/images/nodejs.jpg" alt="NodeJS Site" class="responsive-img"></div>
+              <p>NodeJS</p>
+            </a>
+          </div>
+      </div>
+
+        <!-- Express JS -->
+        <div class="col s12 m6 l2" id="class-link-logos">
+          <div class="img-frame z-depth-1">
+            <a class="center-align" href="https://expressjs.com/">
+              <div><img src="./assets/images/express.png" alt="NodeJS Site" class="responsive-img"></div>
+              <p>Express</p>
+            </a>
+          </div>
+      </div>
+
+      <!-- MySQL -->
+      <div class="col s12 m6 l2" id="class-link-logos">
+        <div class="img-frame z-depth-1">
+          <a class="center-align" href="https://mysql.com/">
+            <div><img src="./assets/images/mysql.png" alt="NodeJS Site" class="responsive-img"></div>
+            <p>mySQL</p>
+          </a>
+        </div>
+    </div>
+
+          <!-- MongoDB -->
+          <div class="col s12 m6 l2" id="class-link-logos">
+            <div class="img-frame z-depth-1">
+              <a class="center-align" href="https://mongodb.com/">
+                <div><img src="./assets/images/mongodb.png" alt="NodeJS Site" class="responsive-img"></div>
+                <p>mongoDB</p>
+              </a>
+            </div>
+        </div>
+
+          <!-- ReactJS -->
+          <div class="col s12 m6 l2" id="class-link-logos">
+            <div class="img-frame z-depth-1">
+              <a class="center-align" href="https://reactjs.org/">
+                <div><img src="./assets/images/react.png" alt="NodeJS Site" class="responsive-img"></div>
+                <p>ReactJS</p>
+              </a>
+            </div>
+        </div>
+
+      
+       
+      </div> <!-- End row 1 -->
+      
+    
+  </header>
+
+ 
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 l6">
+              <h5><a href="http://www.engjoserobles.com">About Me...</a></h5>
+
+            </div>
+            <div class="col s12 l4 offset-l2">
+                <h5>
+                    Connect
+                </h5>
+                <ul>
+                    <li><a href="#" class="grey-text text-lighten-3">FaceBook</a></li>
+                    <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+                    <li><a href="#" class="grey-text text-lighten-3">LinkedIn</a></li>
+                    <li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+        <div class="container center-align">&copy;2018 JRR</div>
+    </div>
+  </footer>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.materialboxed').materialbox();
+        $('.parallax').parallax();
+        $('.tabs').tabs();
+        $('.datepicker').datepicker(
+            {disableWeekends : true}
+        );
+        $('.tooltipped').tooltip();
+        $('.scrollspy').scrollSpy();
+    });
+  </script>
+</body>
+</html>
